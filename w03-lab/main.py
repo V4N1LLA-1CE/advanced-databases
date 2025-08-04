@@ -15,4 +15,4 @@ def init_mongo(client: pymongo.MongoClient) -> None:
 
 
 if __name__ == "__main__":
-    db = connect_to_mongo()
+    client = connect_to_mongo()
